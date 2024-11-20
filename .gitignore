@@ -1,0 +1,9 @@
+bundle
+dist
+lib
+node_modules
+*.tsbuildinfo
+.angular
+__screenshots__
+.vscode/profile
+packages/pythonEditorcomp

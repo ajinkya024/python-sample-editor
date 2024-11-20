@@ -1,0 +1,10 @@
+{
+    "files": [],
+    // watch everything except for:
+    // - verify packages (no own source)
+    "references": [
+        { "path": "./packages/vscode-ws-jsonrpc/tsconfig.src.json" },
+        { "path": "./packages/examples/tsconfig.src.json" },
+        { "path": "./packages/examples/tsconfig.build.json" }
+    ]
+ }
